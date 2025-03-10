@@ -1465,7 +1465,7 @@ navItems.forEach(item => {
 const versesPageHeader = document.querySelector('.verses-page-header');
 versesPageHeader.innerHTML = `
     <button class="back-button" style="display: none;" title="Back">
-        <span class="material-icons">arrow_back</span>
+        <span class="material-icons"></span>
     </button>
     <div class="verses-title-container">
         <h2 class="verses-title">Verses</h2>
