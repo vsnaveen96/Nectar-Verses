@@ -1464,9 +1464,7 @@ navItems.forEach(item => {
 // Find the verses tab header and update it
 const versesPageHeader = document.querySelector('.verses-page-header');
 versesPageHeader.innerHTML = `
-    <button class="back-button" style="display: none;" title="Back">
-        <span class="material-icons"></span>
-    </button>
+    
     <div class="verses-title-container">
         <h2 class="verses-title">Verses</h2>
         <div class="verses-search">
